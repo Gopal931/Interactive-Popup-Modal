@@ -1,0 +1,27 @@
+
+  .overlay{
+    position: fixed;
+    top:0;
+    /* bottom:0; */
+    height: 100%;
+    width:100%;
+    z-index: 900;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+  .popup-content {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    left: 40%;
+    /* margin: 40px auto; */
+    z-index: 1000;
+  }
+  
+  .close-btn {
+    cursor: pointer;
+  }
